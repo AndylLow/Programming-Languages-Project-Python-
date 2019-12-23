@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#F7EDC0;
+color:black</string>
+  </property>
+  <widget class="QPushButton" name="kapat">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>230</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Gothic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Kapat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Gothic</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Hakkında</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>70</y>
+     <width>271</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;avukatbarosu.com olarak avukatların iletişim bilgilerinin müvekkiller veya avukat arayışında olan kişi/kişiler tarafından daha kolay bulunabilmesi amaçlanmaktadır. Bu amaç doğrultusunda, web sitemizdeki avukat bilgileri güncel tutulmaya çalışılmaktadır.&lt;/span&gt;&lt;span style=&quot; font-family:'Open-Sance,sans-serif'; font-size:8pt; color:#333333; background-color:transparent;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Web sitemizde yer alan avukat bilgilerinin çoğunluğu ilgili baronun web sitesinden alınmaktadır. Bazı bilgilerde Avukat Ekle sayfamızdan avukatlarımızın kendi bilgileri eklemesiyle oluşmaktadır.&lt;/span&gt;&lt;span style=&quot; font-family:'Open-Sance,sans-serif'; font-size:8pt; color:#333333; background-color:transparent;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;İlgili avukat sayfasındaki avukat isminin yanında bulunan işareti, avukatın bilgilerinin kendisinin eklediğini ve izni dahilinde yayınlanmakta olduğunu belirtir.&lt;/span&gt;&lt;span style=&quot; font-family:'Open-Sance,sans-serif'; font-size:8pt; color:#333333; background-color:transparent;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Yanlış ya da hatalı bilgiler için, ilgili avukat sayfasındaki &amp;quot;Avukat Düzelt&amp;quot; butonunu kullanarak düzeltme yapabilir yada &amp;quot;Sorun Bildir&amp;quot; butonu ile sorun bildiriminde bulunabilirsiniz.&lt;/span&gt;&lt;span style=&quot; font-family:'Open-Sance,sans-serif'; font-size:8pt; color:#333333; background-color:transparent;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Bilgilerinizin web sitemizde yer almasını istemiyorsanız, iletişim bölümünden bizlerle iletişim kurabilirsiniz.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
